@@ -20,11 +20,11 @@ defmodule TableParserTest do
 
     assert TableParser.parse_table(ps_output) |> hd() == %{
              user: "root",
-             pid: 1,
-             "%cpu": 0.0,
-             "%mem": 0.0,
-             vsz: 184_856,
-             rss: 7180,
+             pid: "1",
+             "%cpu": "0.0",
+             "%mem": "0.0",
+             vsz: "184856",
+             rss: "7180",
              tty: "?",
              stat: "Ss",
              start: "Dec16",

@@ -50,17 +50,17 @@ defmodule TableParser do
   iex(2)> TableParser.parse_table(ps_output)
   [
     %{
-      "%cpu": 0.0,
-      "%mem": 0.0,
+      "%cpu": "0.0",
+      "%mem": "0.0",
       command: "/sbin/init",
-      pid: 1.0,
-      rss: 7180.0,
+      pid: "1",
+      rss: "7180",
       start: "Dec16",
       stat: "Ss",
       time: "0:29",
       tty: "?",
       user: "root",
-      vsz: 184856.0
+      vsz: "184856"
     }
   ]
 
